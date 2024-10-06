@@ -30,11 +30,11 @@ function mintNFT (_nickname, _sticker, _accessory, _bling) {
 // and print their metadata with console.log()
 function listNFTs () {
    for ( let i = 0; i < NFT_ana.length; i++){
-      console.log("\nID: \t\t\t\t" + (i + 1));
+      console.log("\nID: \t\t" + (i + 1));
       console.log("Nickname: \t" + NFT_ana[i].nickname);
-      console.log("Sticker: \t\t" + NFT_ana[i].sticker);
+      console.log("Sticker: \t" + NFT_ana[i].sticker);
       console.log("Accessory: \t" + NFT_ana[i].accessory);
-      console.log("Bling: \t\t\t" + NFT_ana[i].bling);
+      console.log("Bling: \t\t" + NFT_ana[i].bling);
    }
 }
 
